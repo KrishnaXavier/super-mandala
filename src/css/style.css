@@ -1,0 +1,76 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+:focus { outline: 0;}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none}
+table {	border-collapse: separate;border-spacing: 0;}
+th, td {text-align: left; font-weight: normal;}
+img, iframe {border: none; text-decoration:none;}
+ol, ul {list-style: none;}
+input, textarea, select, button {font-size: 100%;font-family: inherit;}
+select {margin: inherit;}
+hr {margin: 0;padding: 0;border: 0;color: #A26E13;background-color: #A26E13;height: 26px}
+
+*{
+	box-sizing: border-box;
+}
+
+.board{	
+	background-color: #f0f0f0;	
+	float: left;
+}
+
+
+.container-panel{
+	position: absolute;	
+    right: 0;	
+    width: 20%;
+}
+
+.panel-config{		
+	float: right;	
+	width: 100%;		
+	padding: 1%;
+}
+
+.panel-config input{
+	width: 100px;
+}
+
+.panel-config .slot-config{
+	width: 100%;
+	float: left;
+	margin: 1%;
+}
+
+.panel-config .title{
+	font-size: 1.5em;
+	float: left;	
+}
+
+.panel-config .slot-input{
+	float: left;
+}
+
+.menu{
+	float: right;	
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.5em;
+	color: #505050;    
+}
