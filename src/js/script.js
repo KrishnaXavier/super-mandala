@@ -16,9 +16,9 @@ function init(){
 	renderCentro();
 
 	color = "#af3030";
-	traceSize = 3;
-	amount = 10;	
-	spaceRow = 6;
+	traceSize = 5;
+	amount = 0;	
+	spaceRow = 10;
 
 	context.beginPath();
 	context.lineWidth = traceSize;
