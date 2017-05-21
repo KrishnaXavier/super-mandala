@@ -1,6 +1,5 @@
 window.onload = function(){			
 	init();
-
 }
 
 function init(){
@@ -13,7 +12,7 @@ function init(){
 		board.width = board.height = widthClient;
 
 	context = board.getContext("2d");
-	renderCentro();
+	renderCenter();
 
 	color = "#af3030";
 	traceSize = 5;
@@ -72,7 +71,7 @@ function render(){
 	}	
 }
 
-function renderCentro(){
+function renderCenter(){
 	let a = board.width/2;
 	let b = board.height/2;
 
